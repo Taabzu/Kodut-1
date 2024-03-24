@@ -1,5 +1,5 @@
 import math
-
+#maakera?
 def draw_circle(radius):
     for y in range(-radius, radius + 1):
         for x in range(-radius, radius + 1):
@@ -9,5 +9,4 @@ def draw_circle(radius):
                 print(" ", end=" ")
         print()
 
-# Ringi joonistamine
 draw_circle(10)
